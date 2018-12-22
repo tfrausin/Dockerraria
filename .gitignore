@@ -1,0 +1,5 @@
+mods/*
+!mods/.gitkeep
+worlds/*
+!worlds/.gitkeep
+**/.idea

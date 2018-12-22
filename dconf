@@ -1,0 +1,12 @@
+maxplayers=8
+port=7777
+world=/terraria/meta/worlds/default.wld
+worldpath=/terraria/meta/worlds
+modpath=/terraria/meta/mods
+autocreate=3
+difficulty=0
+secure=1
+language=en/US
+worldname=dockerraria
+motd=default
+password=default

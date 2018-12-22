@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  terraria:
+    image: dockerraria:latest
+    container_name: terraria
+    build:
+      context: .
+      dockerfile: Dockerfile
+#      args:
+#        TERRARIA_VERSION: non-default version
+#        TMODLOADER_VERSION: non-default version
+    ports:
+      - 7777:7777
+    stdin_open: true
